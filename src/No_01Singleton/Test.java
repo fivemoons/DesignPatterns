@@ -3,8 +3,8 @@ package No_01Singleton;
 public class Test {
 	public static void main(String[] args) {
 		//饿汉模式
-		Singleton s1 = Singleton.getInstance();
-		Singleton s2 = Singleton.getInstance();
+		Singleton1 s1 = Singleton1.getInstance();
+		Singleton1 s2 = Singleton1.getInstance();
 		if(s1==s2){
 			System.out.println("s1和s2是同一个实例");
 		}else{
